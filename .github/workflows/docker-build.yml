@@ -21,6 +21,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '17'
+        distribution: 'zulu'
     
     # Step 3: Build the project using Maven
     - name: Build with Maven
